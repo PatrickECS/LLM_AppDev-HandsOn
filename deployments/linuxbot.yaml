@@ -26,7 +26,7 @@ spec:
         - streamlit run app.py --server.port 8080
         env:
         - name: OLLAMA_HOST
-          value: ollama.ollama.svc.cluster.local
+          value: ollama
         image: quay.io/sroecker/linuxbot-app:latest
         imagePullPolicy: Always
         resources:
